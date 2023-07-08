@@ -21,9 +21,9 @@ html {
 ul {
     list-style: none;
     height: 100%;
-    width: 6%;
+    width: 7%;
     position: fixed;
-    top:0;
+	top:0;
     left: 0;
     background-color:rgba(0, 0, 0, 0.4);
     box-shadow: 1px 0px 3px black;
@@ -32,14 +32,13 @@ ul {
     flex-direction: column;
 }
 ul li {
-    margin: 5px;
-    margin-left: 12px;
+    margin-left: 15%;
 }
 ul li a {
     color: white;
     text-decoration: none;
     padding: 5px;
-    font-size: 15px;
+    font-size: 1.2em;
 }
 ul li a:hover {
     background: white;
@@ -53,12 +52,36 @@ section {
     justify-content: center;
 }
 #section1 {
-    height: 70vh;
+    height: 40vh;
+	display: inline-flex;
+  	width: 50%;
 }
+#section1 #text {
+	background-color: #c0392b; 
+	float: left; 
+    width: 60vw;
+	padding-left: 50%;
+	margin-top: 0%;
+	padding-top: 5%; 
+	margin-left: 50%; 
+}
+
+
+#section1 #image {
+	background-image: url("https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png");
+	float:left; 
+	margin-left: 100%; 
+    width: 40vw;  
+    height: 40vh;
+	top: -20em;  
+	background-repeat: no-repeat;
+}
+
 #section2 {
     height: 150vh;
     background-color: rgb(197, 197, 197)
 }
+
 
 
 .timeline {
@@ -130,6 +153,7 @@ section {
 	width: 80%;
 	margin-left: 10%;
 	margin-top: 80px;
+	display: inline-block;
 }
 .main h1 {
 	font-size: 70px;
@@ -145,4 +169,8 @@ section {
 	line-height: 20px;
 	font-family: serif;
 	text-align: right;
+}
+.content {
+	width: 50%;
+	height: 50%;
 }
