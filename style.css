@@ -52,29 +52,33 @@ section {
     justify-content: center;
 }
 #section1 {
-    height: 40vh;
-	display: inline-flex;
-  	width: 50%;
+    height: 50vh;
+	width: 100vw;
+	position: relative;
 }
 #section1 #text {
+	position: absolute;
 	background-color: #c0392b; 
-	float: left; 
-    width: 60vw;
-	padding-left: 50%;
+	float: left;
+	height: 100%;
+	width: 50%;
+	padding-top: 5%;
+	padding-left: 30%;
+	padding-right: 8%;
 	margin-top: 0%;
-	padding-top: 5%; 
-	margin-left: 50%; 
+	left: -25%; 
+}
+#section1 #text h2 {
+	line-height: 170%;
 }
 
+#section1 img {
+	width: 50vh;
+	height: 51vh;
+	float:right;
+	bottom: 38.9em; 
+	left: 70%;
 
-#section1 #image {
-	background-image: url("https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png");
-	float:left; 
-	margin-left: 100%; 
-    width: 40vw;  
-    height: 40vh;
-	top: -20em;  
-	background-repeat: no-repeat;
 }
 
 #section2 {
