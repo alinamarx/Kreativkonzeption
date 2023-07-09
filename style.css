@@ -90,7 +90,9 @@ section {
     height: 170vh;
     background-color: rgb(197, 197, 197)
 }
-
+#section4 {
+	height: 70vh;
+}
 
 
 .timeline {
@@ -187,7 +189,3 @@ section {
 	height: 50%;
 }
 
-
-#picture12 {
-	
-}
