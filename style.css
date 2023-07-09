@@ -59,6 +59,7 @@ section {
     height: 50vh;
 	width: 100vw;
 	position: relative;
+	overflow: hidden;
 }
 #section1 #text {
 	position: absolute;
@@ -68,12 +69,13 @@ section {
 	width: 55%;
 	padding-top: 5%;
 	padding-left: 30%;
-	padding-right: 8%;
+	padding-right: 5.5%;
 	margin-top: 0%;
 	left: -25%; 
 }
 #section1 #text h2 {
 	line-height: 170%;
+	overflow: hidden;
 }
 
 #section1 img {
@@ -81,7 +83,7 @@ section {
 	height: 51vh;
 	float: left;
 	margin-left: 110%;
-	top: -24.1em;
+	top: -24.2em;
 }
 
 #section2 {
