@@ -8,8 +8,8 @@
 }
 
 .title-image {
-    background-image: url("https://i.redd.it/nx5sjc8hhiw71.jpg");
-    background-size: cover;
+    background-image: url("./Bilder/Frontpage.jpg");
+    background-size:auto;
 	background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
@@ -46,7 +46,7 @@ ul li a {
 }
 ul li a:hover {
     background: white;
-    color: chocolate;
+    color: #dc4b3a;
 }
 
 section {
@@ -60,38 +60,29 @@ section {
 	width: 100vw;
 	position: relative;
 	overflow: hidden;
-}
-#section1 #text {
-	position: absolute;
-	background-color: #c0392b; 
-	float: left;
-	height: 100%;
-	width: 55%;
-	padding-top: 5%;
-	padding-left: 30%;
-	padding-right: 5.5%;
-	margin-top: 0%;
-	left: -25%; 
+	background-color: #3975db;
 }
 #section1 #text h2 {
 	line-height: 170%;
 	overflow: hidden;
 }
 
-#section1 img {
-	width: 50vh;
-	height: 51vh;
-	float: left;
-	margin-left: 110%;
-	top: -24.2em;
-}
 
 #section2 {
-    height: 170vh;
-    background-color: rgb(197, 197, 197)
+    height: 230vh;
+    background-color: rgb(235, 235, 235)
+}
+#section3 {
+	background-color: #dc4b3a;
+}
+#section3 .main video {
+	width: auto;
+	height: 70vh;
 }
 #section4 {
 	height: 70vh;
+	background-color: rgb(235, 235, 235)
+
 }
 
 
@@ -111,7 +102,7 @@ section {
 	left: 65px;
 	width: 3px;
 	height: calc(100% - 8%);
-	background: #c0392b;
+	background: #dc4b3a;
 }
 
 .timeline .column {
@@ -133,8 +124,8 @@ section {
 	top: 86px;
 	width: 10px;
 	height: 10px;
-	background: #c0392b;
-	border: 3px solid #c0392b;
+	background: #dc4b3a;
+	border: 3px solid #dc4b3a;
 }
 .timeline .column .title h2 {
 	margin-top: -63px;
